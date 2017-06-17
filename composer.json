@@ -1,0 +1,20 @@
+{
+    "name": "castiron/typo3-databaseable",
+    "description": "A lightweight set of helpers for TYPO3 DBAL",
+    "type": "library",
+    "require": {
+        "typo3/cms": "^8.7"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Gabe Blair",
+            "email": "gabe@castironcoding.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Castiron\\Databaseable\\": "src/"
+        }
+    }
+}
